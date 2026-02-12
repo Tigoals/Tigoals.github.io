@@ -1,0 +1,190 @@
+<html lang="id" data-theme="dark">
+	<head>
+    <!-- Meta tags  -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="never" name="referrer">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">   
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Score808 Live - Watch Free Online TV Malaysia </title>
+    <meta name="description" content="Score808 Live - Malaysia Stream TV and Sports Live and Online. Jalla TV | Tigoals Apk - Aplikasi Android">      
+    <meta name="keywords" content="Score808 Live - Malaysia Stream TV and Sports Live and Online. Jalla TV| Tigoals Apk - Aplikasi Android"> 
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Score808 Live - Malaysia Stream TV and Sports Live and Online. Jalla TV | Tigoals Apk - Aplikasi Android">  
+    <!-- Mendeklarasikan warna yang muncul pada address bar Chrome versi seluler -->
+    <meta name="theme-color" content="#000">
+    <!-- Mendeklarasikan ikon untuk iOS -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-status-bar-style" content="default">
+    <meta name="mobile-web-app-title" content="Tigoals Live">
+    <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/bitmox/file@main/halux.png">
+    <!-- Mendeklarasikan ikon untuk Windows -->
+    <meta name="msapplication-TileImage" content="https://cdn.jsdelivr.net/gh/bitmox/file@main/halux.png">
+    <meta name="msapplication-TileColor" content="#000">
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/bitmox/file@main/halux.png">   
+    <link rel="manifest" href="https://cdn.jsdelivr.net/gh/bitmox/malay@main/xonifes.json">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+font-family:system-ui,-apple-system,Segoe UI;
+background:#020617;
+color:#fff;
+}
+
+/* HEADER */
+.header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:12px 16px;
+background:linear-gradient(to bottom,rgba(0,0,0,.8),transparent);
+z-index:999;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-weight:700;
+color:#facc15;
+text-decoration:none;
+}
+
+.subscribe{
+background:#e11d48;
+padding:8px 14px;
+border-radius:999px;
+font-size:13px;
+font-weight:600;
+text-decoration:none;
+color:#fff;
+}
+
+/* LAYOUT */
+.container{
+max-width:1400px;
+margin:auto;
+padding:70px 12px 80px;
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:16px;
+}
+
+@media(max-width:900px){
+.container{grid-template-columns:1fr}
+}
+
+/* VIDEO */
+.video-wrapper{
+position:relative;
+width:100%;
+aspect-ratio:16/9;
+background:#000;
+border-radius:14px;
+overflow:hidden;
+}
+
+video{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+/* CARD */
+.card{
+background:#0f172a;
+padding:14px;
+border-radius:14px;
+margin-bottom:12px;
+box-shadow:0 4px 14px rgba(0,0,0,.4);
+}
+
+.card h3{font-size:14px;color:#facc15;margin-bottom:6px}
+.card p{font-size:13px;opacity:.7}
+
+/* SIDEBAR */
+.sidebar{position:sticky;top:70px;height:fit-content}
+
+/* NAV */
+.bottom-nav{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#020617;
+border-top:1px solid #1e293b;
+display:flex;
+justify-content:space-around;
+padding:10px 0;
+}
+
+.bottom-nav a{
+font-size:12px;
+opacity:.7;
+text-decoration:none;
+color:#fff;
+}
+
+.bottom-nav a:hover{opacity:1}
+
+@media(min-width:900px){
+.bottom-nav{display:none}
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<a href="/" class="logo">Score808 Premium</a>
+<a href="https://whatsapp.com/channel/0029VbC7N00EQIaqwkJiAv0Y" class="subscribe">Subscribe</a>
+</div>
+
+<div class="container">
+
+<div>
+
+<!--<div class="video-wrapper">
+<video controls autoplay muted playsinline>
+<source src="VIDEO_URL_M3U8_OR_MP4" type="video/mp4">
+Browser tidak mendukung video.
+</video>
+</div>-->
+
+<div class="card"><h3>Info Match</h3><p>Jadwal Live streaming hari ini.</p>
+<iframe title='live skor' id='score808frame2' loading='lazy' scrolling='no' src='https://official.tigoals.my.id/p/live-score.html' style='width: 100%; border: none;'></iframe></div>
+
+
+</div>
+
+<div class="sidebar">
+<div class="card"><h3>Highlight</h3><p>Video Highlights Pertandingan</p>
+<iframe title='live skor' id='score808frame' loading='lazy' scrolling='no' src='https://official.tigoals.my.id/p/highlights-score808.html' style='width: 100%; border: none;'></iframe></div>
+</div>
+
+<div class="bottom-nav">
+<a href="/">Home</a>
+<a href="/">Live</a>
+<a href="/">Jadwal</a>
+<a href="/">Akun</a>
+</div>
+  <script>
+window.addEventListener("message", function(e) {
+    if (e.origin !== "https://official.tigoals.my.id") return;
+    const iframe = document.getElementById("score808frame");
+    if (e.data && e.data.height) {
+      iframe.style.height = e.data.height + "px";
+    }
+  });
+  window.addEventListener("message", function(e) {
+    if (e.origin !== "https://official.tigoals.my.id") return;
+    const iframe = document.getElementById("score808frame2");
+    if (e.data && e.data.height) {
+      iframe.style.height = e.data.height + "px";
+    }
+  });
+</script>
+</body>
+</html>
